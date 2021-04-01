@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.scoreContainer{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.scoreContainer>div{
+font-size: 2em;
+}
+.scoreContainer>div:first-child{
+    color: green;
+    }
+.scoreContainer>div:last-child{
+        color: red;
+}
