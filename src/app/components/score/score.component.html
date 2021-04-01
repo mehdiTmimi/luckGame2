@@ -1,7 +1,10 @@
 <h2>
     Score
 </h2>
+<div *ngFor="let x of list">
+{{x}} <app-number></app-number>
+</div>
 <div class="scoreContainer">
-    <div>Win : 0</div>
-    <div>Loose : 0</div>
+    <div [style.display]="'none'">Win : 0</div>
+    <div *ngIf="etatLoose">Loose : 0</div>
 </div>
